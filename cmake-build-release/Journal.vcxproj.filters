@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\V5422OL2CD\qrc_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\A2DM3CPW2T\qrc_imgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\XHA6ABKHCB\qrc_fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\b003c4e8a6b4fae2dc7309693e0095d9\qrc_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\f9cec0640260d7df011f5012aab502ec\qrc_imgs.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3994865603d6646d52c6f79d3fe2f638\qrc_fonts.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\Qml\qml.qrc" />
+    <None Include="D:\C++_Project\Journal\Image\imgs.qrc" />
+    <None Include="D:\C++_Project\Journal\Font\fonts.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{683231CB-30CF-3CF2-AD37-ABBDABF9F9AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

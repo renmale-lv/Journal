@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Test.qml</file>
+        <file>SideBar/Sidebar.qml</file>
+        <file>HomePage/Homepage.qml</file>
+        <file>Base/J_Iconbutton.qml</file>
+        <file>Base/J_Shadow.qml</file>
+        <file>Base/J_Scrollbar.qml</file>
+        <file>Base/J_Scrollpage.qml</file>
+        <file>Base/J_Icon.qml</file>
+        <file>Base/J_Radiusimage.qml</file>
+        <file>HomePage/Home_Smalltitle.qml</file>
+        <file>HomePage/Home_Subpage_1.qml</file>
+        <file>HomePage/Home_Subpage_2.qml</file>
+        <file>HomePage/Home_Subpage_3.qml</file>
+    </qresource>
+</RCC>

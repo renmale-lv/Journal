@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen",
+	"CMAKE_BINARY_DIR" : "D:/C++_Project/Journal/cmake-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/C++_Project/Journal/cmake-build-release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/C++_Project/Journal",
+	"CMAKE_SOURCE_DIR" : "D:/C++_Project/Journal",
+	"INCLUDE_DIR" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/C++_Project/Journal/Qml/main.qml",
+		"D:/C++_Project/Journal/Qml/Test.qml",
+		"D:/C++_Project/Journal/Qml/HomePage/Homepage.qml",
+		"D:/C++_Project/Journal/Qml/SideBar/Sidebar.qml",
+		"D:/C++_Project/Journal/Qml/Base/J_Scrollbar.qml",
+		"D:/C++_Project/Journal/Qml/Base/J_Scrollpage.qml",
+		"D:/C++_Project/Journal/Qml/Base/J_Iconbutton.qml",
+		"D:/C++_Project/Journal/Qml/Base/J_Shadow.qml"
+	],
+	"LOCK_FILE" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "D:/C++_Project/Journal/qml.qrc",
+	"VERBOSITY" : 0
+}
