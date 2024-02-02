@@ -1,8 +1,10 @@
 import QtQuick
+import QtQuick.Layouts
 
 Rectangle{
-    id: root
     property string text;
+    property int fontSize: 15
+    id: root
     radius: 4
     height: 40
     color: "#edf3ec"
@@ -15,6 +17,7 @@ Rectangle{
         text: root.text
         font{
             family: "Courier New"
+            pixelSize: root.fontSize
         }
     }
 }

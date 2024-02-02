@@ -13,9 +13,13 @@
 	[
 		"D:/C++_Project/Journal/Qml/main.qml",
 		"D:/C++_Project/Journal/Qml/Test.qml",
+		"D:/C++_Project/Journal/Qml/HomePage/Home_Subpage_3.qml",
 		"D:/C++_Project/Journal/Qml/HomePage/Home_Smalltitle.qml",
+		"D:/C++_Project/Journal/Qml/HomePage/Home_Subpage_2.qml",
+		"D:/C++_Project/Journal/Qml/HomePage/Home_Subpage_1.qml",
 		"D:/C++_Project/Journal/Qml/HomePage/Homepage.qml",
 		"D:/C++_Project/Journal/Qml/SideBar/Sidebar.qml",
+		"D:/C++_Project/Journal/Qml/Component/J_Taskview.qml",
 		"D:/C++_Project/Journal/Qml/Base/J_Scrollbar.qml",
 		"D:/C++_Project/Journal/Qml/Base/J_Radiusimage.qml",
 		"D:/C++_Project/Journal/Qml/Base/J_Icon.qml",

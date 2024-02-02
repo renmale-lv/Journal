@@ -14,5 +14,8 @@
         <file>HomePage/Home_Subpage_1.qml</file>
         <file>HomePage/Home_Subpage_2.qml</file>
         <file>HomePage/Home_Subpage_3.qml</file>
+        <file>Component/J_Taskview.qml</file>
+        <file>Base/J_Listview.qml</file>
+        <file>Base/J_Tabview.qml</file>
     </qresource>
 </RCC>

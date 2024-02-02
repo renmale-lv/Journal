@@ -43,10 +43,21 @@ J_Scrollpage {
     }
     Item{
         Layout.fillWidth: true
-        implicitHeight: childrenRect.height
-        RowLayout{
-            anchors.fill: parent
-
+        Layout.rightMargin: 20
+        Layout.leftMargin: 20
+        Layout.preferredHeight: subpage_row.childrenRect.height
+        Row{
+            id: subpage_row
+            spacing: 20
+            Home_Subpage_1{
+                width: root.width*0.16
+            }
+            Home_Subpage_2{
+                width: root.width*0.6
+            }
+            Home_Subpage_3{
+                width: root.width*0.16
+            }
         }
     }
     Item{
