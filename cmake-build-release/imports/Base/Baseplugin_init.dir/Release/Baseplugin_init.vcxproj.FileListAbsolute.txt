@@ -1,0 +1,1 @@
+D:\C++_Project\Journal\cmake-build-release\imports\Base\Baseplugin_init.dir\Release\Baseplugin_init.lib

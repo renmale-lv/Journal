@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\Journal_content_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\journal_content_qmltyperegistrations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmlcache\Journal_content_Home_Smalltitle_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmlcache\Journal_content_Home_Subpage_1_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmlcache\Journal_content_Home_Subpage_2_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmlcache\Journal_content_Home_Subpage_3_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmlcache\Journal_content_Homepage_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\Journal_content_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\Journal_content_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Content\Journal_content_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\Content\ddf_Journal_content.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\qmake_Content.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\Content\qmldir" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\Content\.rcc\Journal_content_raw_qml_0.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\Content\Resource\Image\avatar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\C++_Project\Journal\Content\Resource\Image\background.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\9a2e3809e749cb96396787f839d0705a\qt6journal_content_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\journal_content_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cc9069f16d48beb60a5b38fd19f3025b\Journal_content_Home_Smalltitle_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cc9069f16d48beb60a5b38fd19f3025b\Journal_content_Home_Subpage_1_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cc9069f16d48beb60a5b38fd19f3025b\Journal_content_Home_Subpage_2_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cc9069f16d48beb60a5b38fd19f3025b\Journal_content_Home_Subpage_3_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cc9069f16d48beb60a5b38fd19f3025b\Journal_content_Homepage_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\Content\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\meta_types\qt6journal_content_metatypes.json.gen" />
+    <None Include="D:\C++_Project\Journal\Content\Home_Smalltitle.qml" />
+    <None Include="D:\C++_Project\Journal\Content\Home_Subpage_1.qml" />
+    <None Include="D:\C++_Project\Journal\Content\Home_Subpage_2.qml" />
+    <None Include="D:\C++_Project\Journal\Content\Home_Subpage_3.qml" />
+    <None Include="D:\C++_Project\Journal\Content\Homepage.qml" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0CB3E61B-3EC7-3C38-B3CB-6E563847A19F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3D2BBBDE-2021-381D-B04C-D6E5A8033BCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{683231CB-30CF-3CF2-AD37-ABBDABF9F9AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

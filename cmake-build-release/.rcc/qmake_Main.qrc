@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Main">
+    <file alias="qmldir">D:/C++_Project/Journal/cmake-build-release/Main/qmldir</file>
+  </qresource>
+</RCC>
+

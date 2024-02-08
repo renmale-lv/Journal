@@ -1,0 +1,20 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\DD90259D53A8F9699AB4909EA63955B6\JOURNAL_AUTOMOC_JSON_EXTRACTION.RULE
+setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/ParseCache_Release.txt --cmake-autogen-info-file D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutogenInfo.json --output-file-path D:/C++_Project/Journal/cmake-build-release/meta_types/Journal_json_file_list.txt --timestamp-file-path D:/C++_Project/Journal/cmake-build-release/meta_types/Journal_json_file_list.txt.timestamp --cmake-autogen-include-dir-path D:/C++_Project/Journal/cmake-build-release/Journal_autogen/include_Release --cmake-multi-config
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -4,16 +4,25 @@
     <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\C++_Project\Journal\main.cpp">
+    <ClCompile Include="D:\C++_Project\Journal\Src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\V5422OL2CD\qrc_qml.cpp">
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qrc_configuration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\A2DM3CPW2T\qrc_imgs.cpp">
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\journal_qmltyperegistrations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\XHA6ABKHCB\qrc_fonts.cpp">
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qrc_qmake_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qmlcache\Journal_qmlcache_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qmlcache\Journal_Main_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qrc_Journal_raw_qml_0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\Journal_autogen\mocs_compilation_Release.cpp">
@@ -27,25 +36,55 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\b003c4e8a6b4fae2dc7309693e0095d9\qrc_qml.cpp.rule">
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\ddf_Journal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\.rcc\configuration.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\Config\config.conf" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\.rcc\qmake_Main.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\Main\qmldir" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\.rcc\Journal_raw_qml_0.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\af9286268a5f69edf58651818792db76\qrc_configuration.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\f9cec0640260d7df011f5012aab502ec\qrc_imgs.cpp.rule">
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\399c41c1010e7a295ba52fe5c3dd84ed\qt6journal_metatypes.json.gen.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3994865603d6646d52c6f79d3fe2f638\qrc_fonts.cpp.rule">
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\33b93a3d9a574e9ca2773a37250cae6a\journal_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\af9286268a5f69edf58651818792db76\qrc_qmake_Main.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\79457902aeb99e5435a90a42b87780d5\Journal_Main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\af9286268a5f69edf58651818792db76\qrc_Journal_raw_qml_0.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="D:\C++_Project\Journal\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\C++_Project\Journal\Qml\qml.qrc" />
-    <None Include="D:\C++_Project\Journal\Image\imgs.qrc" />
-    <None Include="D:\C++_Project\Journal\Font\fonts.qrc" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\meta_types\qt6journal_metatypes.json.gen" />
+    <None Include="D:\C++_Project\Journal\Main.qml" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6gui_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6quick_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qmlmodels_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6opengl_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6quickcontrols2_metatypes.json" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6widgets_metatypes.json" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
       <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0CB3E61B-3EC7-3C38-B3CB-6E563847A19F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{683231CB-30CF-3CF2-AD37-ABBDABF9F9AE}</UniqueIdentifier>

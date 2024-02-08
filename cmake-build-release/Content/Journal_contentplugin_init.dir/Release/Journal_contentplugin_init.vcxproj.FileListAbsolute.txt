@@ -1,0 +1,1 @@
+D:\C++_Project\Journal\cmake-build-release\Content\Journal_contentplugin_init.dir\Release\Journal_contentplugin_init.lib

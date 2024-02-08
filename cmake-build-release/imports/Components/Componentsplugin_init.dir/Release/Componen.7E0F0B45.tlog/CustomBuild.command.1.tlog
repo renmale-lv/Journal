@@ -1,0 +1,10 @@
+^D:\C++_PROJECT\JOURNAL\IMPORTS\COMPONENTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Components/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\5763222a8d0aeec66d49d58dfa73a28b\components_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\0bc8539bd96ddb719fd463eef69ee03f\Components_qmltyperegistration.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\imports\Components\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Components\CMakeFiles\Components_qmltyperegistration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

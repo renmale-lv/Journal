@@ -1,0 +1,108 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\21946188C3639AA3CC2EB6ED3724A4D8\HOME_SMALLTITLE.QML.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Home_Smalltitle.qml D:/C++_Project/Journal/cmake-build-release/Content/Home_Smalltitle.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\21946188C3639AA3CC2EB6ED3724A4D8\HOME_SUBPAGE_1.QML.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Home_Subpage_1.qml D:/C++_Project/Journal/cmake-build-release/Content/Home_Subpage_1.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\21946188C3639AA3CC2EB6ED3724A4D8\HOME_SUBPAGE_2.QML.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Home_Subpage_2.qml D:/C++_Project/Journal/cmake-build-release/Content/Home_Subpage_2.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\21946188C3639AA3CC2EB6ED3724A4D8\HOME_SUBPAGE_3.QML.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Home_Subpage_3.qml D:/C++_Project/Journal/cmake-build-release/Content/Home_Subpage_3.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\21946188C3639AA3CC2EB6ED3724A4D8\HOMEPAGE.QML.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Homepage.qml D:/C++_Project/Journal/cmake-build-release/Content/Homepage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\DB81B49A34B98A1D296EFDFA43AFE07F\AVATAR.PNG.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Resource/Image/avatar.png D:/C++_Project/Journal/cmake-build-release/Content/Resource/Image/avatar.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\DB81B49A34B98A1D296EFDFA43AFE07F\BACKGROUND.JPG.RULE
+setlocal
+cd D:\C++_Project\Journal\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/Content/Resource/Image/background.jpg D:/C++_Project/Journal/cmake-build-release/Content/Resource/Image/background.jpg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CONTENT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/Content/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

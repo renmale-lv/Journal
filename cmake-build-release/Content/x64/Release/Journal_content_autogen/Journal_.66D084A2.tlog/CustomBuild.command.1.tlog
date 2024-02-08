@@ -1,0 +1,24 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\E4B28C691976283838F16AD0F109C0A6\JOURNAL_CONTENT_AUTOGEN.RULE
+setlocal
+cd D:\C++_Project\Journal\cmake-build-release\Content
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/C++_Project/Journal/cmake-build-release/Content/CMakeFiles/Journal_content_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CONTENT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/Content/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

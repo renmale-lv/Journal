@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB3023D3-0B86-315A-8A86-BE6885544140}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Base_tooling</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" />
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Icon.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Icon.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Icon.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Icon.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Icon.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Icon.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Icon.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Icon.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Icon.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Icon.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Icon.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Icon.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Icon.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Icon.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Icon.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Icon.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Icon.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Iconbutton.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Iconbutton.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Iconbutton.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Iconbutton.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Iconbutton.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Iconbutton.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Iconbutton.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Iconbutton.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Iconbutton.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Listview.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Listview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Listview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Listview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Listview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Listview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Listview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Listview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Listview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Listview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Listview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Listview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Listview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Listview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Listview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Listview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Listview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Radiusimage.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Radiusimage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Radiusimage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Radiusimage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Radiusimage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Radiusimage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Radiusimage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Radiusimage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Radiusimage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Scrollbar.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Scrollbar.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollbar.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Scrollbar.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollbar.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Scrollbar.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollbar.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Scrollbar.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollbar.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Scrollpage.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Scrollpage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollpage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Scrollpage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollpage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Scrollpage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollpage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Scrollpage.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollpage.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Shadow.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Shadow.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Shadow.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Shadow.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Shadow.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Shadow.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Shadow.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Shadow.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Shadow.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Shadow.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Shadow.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Shadow.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Shadow.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Shadow.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Shadow.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Shadow.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Shadow.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\J_Tabview.qml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying J_Tabview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Tabview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\J_Tabview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Tabview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying J_Tabview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Tabview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\J_Tabview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Tabview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying J_Tabview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Tabview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\J_Tabview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Tabview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying J_Tabview.qml to D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/J_Tabview.qml D:/C++_Project/Journal/cmake-build-release/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\J_Tabview.qml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Tabview.qml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\836505eff6655ab00946bf6ccd908797\iconfont.ttf.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying Resource/Font/iconfont.ttf to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Font/iconfont.ttf D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\Resource\Font\iconfont.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Font\iconfont.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying Resource/Font/iconfont.ttf to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Font/iconfont.ttf D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\Resource\Font\iconfont.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Font\iconfont.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying Resource/Font/iconfont.ttf to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Font/iconfont.ttf D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\Resource\Font\iconfont.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Font\iconfont.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying Resource/Font/iconfont.ttf to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Font/iconfont.ttf D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Font/iconfont.ttf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\Resource\Font\iconfont.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Font\iconfont.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\4f71096c773c1ef7ad564ac5fdf9dbe8\Logo.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying Resource/Image/Logo.png to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Image/Logo.png D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\imports\Base\Resource\Image\Logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Image\Logo.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying Resource/Image/Logo.png to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Image/Logo.png D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\imports\Base\Resource\Image\Logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Image\Logo.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying Resource/Image/Logo.png to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Image/Logo.png D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\imports\Base\Resource\Image\Logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Image\Logo.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying Resource/Image/Logo.png to D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\C++_Project\Journal\imports\Base
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/C++_Project/Journal/imports/Base/Resource/Image/Logo.png D:/C++_Project/Journal/cmake-build-release/imports/Base/Resource/Image/Logo.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\imports\Base\Resource\Image\Logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Image\Logo.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\imports\Base\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Icon.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Iconbutton.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Listview.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Radiusimage.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollbar.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Scrollpage.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Shadow.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\J_Tabview.qml">
+    </None>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Font\iconfont.ttf">
+    </None>
+    <Image Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Resource\Image\Logo.png">
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\C++_Project\Journal\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{5BE8F421-A075-3D16-B76A-E0F2F2B67308}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

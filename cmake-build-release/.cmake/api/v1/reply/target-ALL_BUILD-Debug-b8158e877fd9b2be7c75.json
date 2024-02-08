@@ -1,0 +1,106 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Journal_content::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Journal_content_qmlcache::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Journal_content_resources_2::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Journal_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Journal::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Journal_content_resources_1::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Journal_contentplugin::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Journal_content_tooling::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Base_resources_1::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Baseplugin::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Components::@34886951eba50da54946"
+		},
+		{
+			"id" : "Components_resources_1::@34886951eba50da54946"
+		},
+		{
+			"id" : "Componentsplugin::@34886951eba50da54946"
+		},
+		{
+			"id" : "Base_tooling::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Journal_contentplugin_init::@902fc7e03d9da005a180"
+		},
+		{
+			"id" : "Base::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Base_qmlcache::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Base_resources_2::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Baseplugin_init::@99efa6c195e7b167795e"
+		},
+		{
+			"id" : "Componentsplugin_init::@34886951eba50da54946"
+		},
+		{
+			"id" : "Components_tooling::@34886951eba50da54946"
+		},
+		{
+			"id" : "Components_resources_2::@34886951eba50da54946"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Components_qmlcache::@34886951eba50da54946"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

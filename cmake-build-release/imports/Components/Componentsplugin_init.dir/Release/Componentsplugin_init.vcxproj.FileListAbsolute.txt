@@ -1,0 +1,1 @@
+D:\C++_Project\Journal\cmake-build-release\imports\Components\Componentsplugin_init.dir\Release\Componentsplugin_init.lib

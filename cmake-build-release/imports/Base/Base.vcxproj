@@ -1,0 +1,1014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65498720-3398-3E23-9F1B-4CE4B0A88243}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Base</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Base.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Base.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Base.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Base.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Debug;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_QML_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_QML_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Debug;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Debug;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Release;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Release;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_Release;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_MinSizeRel;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_MinSizeRel;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_MinSizeRel;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_RelWithDebInfo;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_QML_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_QMLINTEGRATION_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_RelWithDebInfo;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\include_RelWithDebInfo;D:\C++_Project\Journal\imports\Base;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtQml\6.6.1\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1;C:\Qt\6.6.1\msvc2019_64\include\QtCore\6.6.1\QtCore;C:\Qt\6.6.1\msvc2019_64\include\QtCore;C:\Qt\6.6.1\msvc2019_64\include;C:\Qt\6.6.1\msvc2019_64\mkspecs\win32-msvc;C:\Qt\6.6.1\msvc2019_64\include\QtQml;C:\Qt\6.6.1\msvc2019_64\include\QtQmlIntegration;C:\Qt\6.6.1\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\cbfc691abb4f98233ca05f95d27552a2\qt6base_metatypes.json.gen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Running moc --collect-json for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/Base_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\Base_json_file_list.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json.gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running moc --collect-json for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/Base_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\Base_json_file_list.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json.gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Running moc --collect-json for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/Base_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\Base_json_file_list.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json.gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Running moc --collect-json for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/Base_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\Base_json_file_list.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json.gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\d6c4e05e4bc24aa80e12579414042fb4\base_qmltyperegistrations.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic QML type registration for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/imports/Base/Base.qmltypes --import-name=Base --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/imports/Base/qmltypes/Base_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/imports/Base/base_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated/Base.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\qmltypes\Base_foreign_types.txt;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json;C:\Qt\6.6.1\msvc2019_64\.\bin\qmltyperegistrar.exe;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\base_qmltyperegistrations.cpp;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic QML type registration for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/imports/Base/Base.qmltypes --import-name=Base --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/imports/Base/qmltypes/Base_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/imports/Base/base_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated/Base.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\qmltypes\Base_foreign_types.txt;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json;C:\Qt\6.6.1\msvc2019_64\.\bin\qmltyperegistrar.exe;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\base_qmltyperegistrations.cpp;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic QML type registration for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/imports/Base/Base.qmltypes --import-name=Base --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/imports/Base/qmltypes/Base_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/imports/Base/base_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated/Base.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\qmltypes\Base_foreign_types.txt;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json;C:\Qt\6.6.1\msvc2019_64\.\bin\qmltyperegistrar.exe;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\base_qmltyperegistrations.cpp;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic QML type registration for target Base</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/imports/Base/Base.qmltypes --import-name=Base --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/imports/Base/qmltypes/Base_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/imports/Base/base_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/imports/Base/meta_types/qt6base_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/imports/Base/.generated/Base.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\qmltypes\Base_foreign_types.txt;D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json;C:\Qt\6.6.1\msvc2019_64\.\bin\qmltyperegistrar.exe;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json;C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\base_qmltyperegistrations.cpp;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Icon_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Icon_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Icon.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Icon_qml.cpp D:/C++_Project/Journal/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Icon.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Icon_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Icon_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Icon.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Icon_qml.cpp D:/C++_Project/Journal/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Icon.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Icon_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Icon_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Icon.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Icon_qml.cpp D:/C++_Project/Journal/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Icon.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Icon_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Icon_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Icon.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Icon_qml.cpp D:/C++_Project/Journal/imports/Base/J_Icon.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Icon.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Icon_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Iconbutton_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Iconbutton_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Iconbutton.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Iconbutton_qml.cpp D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Iconbutton_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Iconbutton_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Iconbutton.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Iconbutton_qml.cpp D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Iconbutton_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Iconbutton_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Iconbutton.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Iconbutton_qml.cpp D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Iconbutton_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Iconbutton_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Iconbutton.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Iconbutton_qml.cpp D:/C++_Project/Journal/imports/Base/J_Iconbutton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Iconbutton_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Listview_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Listview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Listview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Listview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Listview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Listview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Listview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Listview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Listview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Listview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Listview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Listview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Listview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Listview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Listview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Listview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Listview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Listview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Listview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Listview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Listview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Listview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Radiusimage_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Radiusimage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Radiusimage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Radiusimage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Radiusimage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Radiusimage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Radiusimage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Radiusimage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Radiusimage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Radiusimage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Radiusimage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Radiusimage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Radiusimage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Radiusimage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Radiusimage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Radiusimage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Radiusimage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Radiusimage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Scrollbar_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Scrollbar_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollbar.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollbar_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollbar_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Scrollbar_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollbar.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollbar_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollbar_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Scrollbar_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollbar.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollbar_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollbar_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Scrollbar_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollbar.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollbar_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollbar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollbar_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Scrollpage_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Scrollpage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollpage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollpage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollpage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Scrollpage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollpage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollpage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollpage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Scrollpage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollpage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollpage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollpage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Scrollpage_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Scrollpage.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Scrollpage_qml.cpp D:/C++_Project/Journal/imports/Base/J_Scrollpage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollpage_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Shadow_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Shadow_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Shadow.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Shadow_qml.cpp D:/C++_Project/Journal/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Shadow.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Shadow_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Shadow_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Shadow.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Shadow_qml.cpp D:/C++_Project/Journal/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Shadow.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Shadow_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Shadow_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Shadow.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Shadow_qml.cpp D:/C++_Project/Journal/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Shadow.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Shadow_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Shadow_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Shadow.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Shadow_qml.cpp D:/C++_Project/Journal/imports/Base/J_Shadow.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Shadow.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Shadow_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\3c032a30e9009e3ccffc181bbf302a0c\Base_J_Tabview_qml.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating .rcc/qmlcache/Base_J_Tabview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Tabview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Tabview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Tabview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Tabview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating .rcc/qmlcache/Base_J_Tabview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Tabview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Tabview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Tabview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Tabview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating .rcc/qmlcache/Base_J_Tabview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Tabview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Tabview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Tabview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Tabview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating .rcc/qmlcache/Base_J_Tabview_qml.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Base/J_Tabview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Base/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmake_Base.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/Base_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Base/.rcc/qmlcache/Base_J_Tabview_qml.cpp D:/C++_Project/Journal/imports/Base/J_Tabview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\bin\qmlcachegen.exe;D:\C++_Project\Journal\imports\Base\J_Tabview.qml;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc;D:\C++_Project\Journal\cmake-build-release\imports\Base\Base.qmltypes;D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Tabview_qml.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\imports\Base\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/C++_Project/Journal/imports/Base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlModuleDirMappingTemplate.qrc.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6QmlPluginTemplate.cpp.in;C:\Qt\6.6.1\msvc2019_64\lib\cmake\Qt6Qml\Qt6qmldirTemplate.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\C++_Project\Journal\cmake-build-release\imports\Base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\ddf_Base.h" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\meta_types\qt6base_metatypes.json.gen">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\base_qmltyperegistrations.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Icon.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Icon_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Iconbutton.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Iconbutton_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Listview.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Listview_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Radiusimage.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Radiusimage_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Scrollbar.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollbar_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Scrollpage.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Scrollpage_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Shadow.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Shadow_qml.cpp" />
+    <None Include="D:\C++_Project\Journal\imports\Base\J_Tabview.qml">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmlcache\Base_J_Tabview_qml.cpp" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\qmake_Base.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\qmldir" />
+    <ClInclude Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\.rcc\Base_raw_qml_0.qrc" />
+    <ClInclude Include="D:\C++_Project\Journal\imports\Base\Resource\Font\iconfont.ttf" />
+    <ClInclude Include="D:\C++_Project\Journal\imports\Base\Resource\Image\Logo.png" />
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6qml_metatypes.json">
+    </None>
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6core_metatypes.json">
+    </None>
+    <None Include="C:\Qt\6.6.1\msvc2019_64\metatypes\qt6network_metatypes.json">
+    </None>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\C++_Project\Journal\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{5BE8F421-A075-3D16-B76A-E0F2F2B67308}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_autogen.vcxproj">
+      <Project>{1459FBF7-1209-33DA-A0C8-C6F10D807B2E}</Project>
+      <Name>Base_autogen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_automoc_json_extraction.vcxproj">
+      <Project>{5E710466-7CD1-3DCB-BC1B-1406F9638FB4}</Project>
+      <Name>Base_automoc_json_extraction</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_tooling.vcxproj">
+      <Project>{FB3023D3-0B86-315A-8A86-BE6885544140}</Project>
+      <Name>Base_tooling</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

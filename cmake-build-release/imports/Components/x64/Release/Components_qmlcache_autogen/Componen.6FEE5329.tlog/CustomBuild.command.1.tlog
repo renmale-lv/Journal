@@ -1,0 +1,34 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\89232B80ED0EC2F10B0503B2709C2341\COMPONENTS_QMLCACHE_LOADER.CPP.RULE
+setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --resource-name qmlcache_Components --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmake_Components.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/Components_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache/Components_qmlcache_loader.cpp @D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache/Components_qml_loader_file_list.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\0BC8539BD96DDB719FD463EEF69EE03F\COMPONENTS_QMLCACHE_AUTOGEN.RULE
+setlocal
+cd D:\C++_Project\Journal\cmake-build-release\imports\Components
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/C++_Project/Journal/cmake-build-release/imports/Components/CMakeFiles/Components_qmlcache_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\IMPORTS\COMPONENTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Components/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

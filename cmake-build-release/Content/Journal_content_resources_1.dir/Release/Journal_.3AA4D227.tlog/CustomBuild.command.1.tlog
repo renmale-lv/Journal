@@ -1,0 +1,20 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\B2D68A30DC46B5084D1EE6667726CC2F\QRC_QMAKE_CONTENT.CPP.RULE
+setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\rcc.exe --output D:/C++_Project/Journal/cmake-build-release/Content/.rcc/qrc_qmake_Content.cpp --name qmake_Content D:/C++_Project/Journal/cmake-build-release/Content/.rcc/qmake_Content.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CONTENT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/Content/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

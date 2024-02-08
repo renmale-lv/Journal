@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\Home_Smalltitle.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\Home_Subpage_1.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\Home_Subpage_2.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\Home_Subpage_3.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\21946188c3639aa3cc2eb6ed3724a4d8\Homepage.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\db81b49a34b98a1d296efdfa43afe07f\avatar.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\db81b49a34b98a1d296efdfa43afe07f\background.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\Content\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\C++_Project\Journal\cmake-build-release\Content\Resource\Image\avatar.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="D:\C++_Project\Journal\cmake-build-release\Content\Resource\Image\background.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\Home_Smalltitle.qml" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\Home_Subpage_1.qml" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\Home_Subpage_2.qml" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\Home_Subpage_3.qml" />
+    <None Include="D:\C++_Project\Journal\cmake-build-release\Content\Homepage.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3D2BBBDE-2021-381D-B04C-D6E5A8033BCD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

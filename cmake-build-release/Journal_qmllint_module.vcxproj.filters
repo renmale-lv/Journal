@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\dd90259d53a8f9699ab4909ea63955b6\Journal_qmllint_module.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\C++_Project\Journal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\C++_Project\Journal\cmake-build-release\CMakeFiles\Journal_qmllint_module" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05C2B4E1-116F-3D7B-93B4-45AC295B6A2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

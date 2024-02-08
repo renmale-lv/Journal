@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Content">D:/C++_Project/Journal/cmake-build-release/Content</file>
+
+  </qresource>
+</RCC>

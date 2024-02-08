@@ -1,16 +1,6 @@
-^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\B003C4E8A6B4FAE2DC7309693E0095D9\QRC_QML.CPP.RULE
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\AF9286268A5F69EDF58651818792DB76\QRC_CONFIGURATION.CPP.RULE
 setlocal
-cd D:\C++_Project\Journal\cmake-build-release
-if %errorlevel% neq 0 goto :cmEnd
-D:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_V5422OL2CD_Info.json Debug
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_V5422OL2CD_Info.json Release
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_V5422OL2CD_Info.json MinSizeRel
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_qml_V5422OL2CD_Info.json RelWithDebInfo
+C:\Qt\6.6.1\msvc2019_64\.\bin\rcc.exe --output D:/C++_Project/Journal/cmake-build-release/.rcc/qrc_configuration.cpp --name configuration D:/C++_Project/Journal/cmake-build-release/.rcc/configuration.qrc --no-zstd
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -18,19 +8,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\F9CEC0640260D7DF011F5012AAB502EC\QRC_IMGS.CPP.RULE
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\399C41C1010E7A295BA52FE5C3DD84ED\QT6JOURNAL_METATYPES.JSON.GEN.RULE
 setlocal
-cd D:\C++_Project\Journal\cmake-build-release
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/meta_types/qt6journal_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/meta_types/Journal_json_file_list.txt
 if %errorlevel% neq 0 goto :cmEnd
-D:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_imgs_A2DM3CPW2T_Info.json Debug
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_imgs_A2DM3CPW2T_Info.json Release
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_imgs_A2DM3CPW2T_Info.json MinSizeRel
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_imgs_A2DM3CPW2T_Info.json RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/meta_types/qt6journal_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/meta_types/qt6journal_metatypes.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -38,19 +20,45 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\3994865603D6646D52C6F79D3FE2F638\QRC_FONTS.CPP.RULE
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\33B93A3D9A574E9CA2773A37250CAE6A\JOURNAL_QMLTYPEREGISTRATIONS.CPP.RULE
 setlocal
-cd D:\C++_Project\Journal\cmake-build-release
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/Main/Journal.qmltypes --import-name=Main --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/qmltypes/Journal_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/journal_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/meta_types/qt6journal_metatypes.json
 if %errorlevel% neq 0 goto :cmEnd
-D:
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/.generated
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_fonts_XHA6ABKHCB_Info.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/.generated/Journal.qmltypes
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_fonts_XHA6ABKHCB_Info.json Release
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\AF9286268A5F69EDF58651818792DB76\QRC_QMAKE_MAIN.CPP.RULE
+setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\rcc.exe --output D:/C++_Project/Journal/cmake-build-release/.rcc/qrc_qmake_Main.cpp --name qmake_Main D:/C++_Project/Journal/cmake-build-release/.rcc/qmake_Main.qrc --no-zstd
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_fonts_XHA6ABKHCB_Info.json MinSizeRel
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\79457902AEB99E5435A90A42B87780D5\JOURNAL_MAIN_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/.rcc/qmlcache
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc D:/C++_Project/Journal/cmake-build-release/CMakeFiles/Journal_autogen.dir/AutoRcc_fonts_XHA6ABKHCB_Info.json RelWithDebInfo
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /Main/Main.qml -I D:/C++_Project/Journal/cmake-build-release -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/Main/qmldir --resource D:/C++_Project/Journal/cmake-build-release/.rcc/configuration.qrc --resource D:/C++_Project/Journal/cmake-build-release/.rcc/qmake_Main.qrc --resource D:/C++_Project/Journal/cmake-build-release/.rcc/Journal_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/.rcc/qmlcache/Journal_Main_qml.cpp D:/C++_Project/Journal/Main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\AF9286268A5F69EDF58651818792DB76\QRC_JOURNAL_RAW_QML_0.CPP.RULE
+setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\rcc.exe --output D:/C++_Project/Journal/cmake-build-release/.rcc/qrc_Journal_raw_qml_0.cpp --name Journal_raw_qml_0 D:/C++_Project/Journal/cmake-build-release/.rcc/Journal_raw_qml_0.qrc --no-zstd
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -60,7 +68,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd
 ^D:\C++_PROJECT\JOURNAL\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

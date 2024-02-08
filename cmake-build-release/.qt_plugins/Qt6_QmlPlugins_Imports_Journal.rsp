@@ -1,0 +1,15 @@
+-rootPath
+D:/C++_Project/Journal
+-cmake-output
+-output-file
+D:/C++_Project/Journal/cmake-build-release/.qt_plugins/Qt6_QmlPlugins_Imports_Journal.cmake
+-importPath
+D:/C++_Project/Journal/cmake-build-release/Main
+-importPath
+D:/C++_Project/Journal/cmake-build-release
+-importPath
+C:/Qt/6.6.1/msvc2019_64/./qml
+-qrcFiles
+D:/C++_Project/Journal/cmake-build-release/.rcc/configuration.qrc
+D:/C++_Project/Journal/cmake-build-release/.rcc/qmake_Main.qrc
+D:/C++_Project/Journal/cmake-build-release/.rcc/Journal_raw_qml_0.qrc

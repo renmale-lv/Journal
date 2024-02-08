@@ -1,0 +1,60 @@
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\6FF6C0B2B4055DE0A0A2B0FC3EFDE62F\QT6COMPONENTS_METATYPES.JSON.GEN.RULE
+setlocal
+C:\Qt\6.6.1\msvc2019_64\.\bin\moc.exe -o D:/C++_Project/Journal/cmake-build-release/imports/Components/meta_types/qt6components_metatypes.json.gen --collect-json @D:/C++_Project/Journal/cmake-build-release/imports/Components/meta_types/Components_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/C++_Project/Journal/cmake-build-release/imports/Components/meta_types/qt6components_metatypes.json.gen D:/C++_Project/Journal/cmake-build-release/imports/Components/meta_types/qt6components_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\5763222A8D0AEEC66D49D58DFA73A28B\COMPONENTS_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=D:/C++_Project/Journal/cmake-build-release/imports/Components/Components.qmltypes --import-name=Components --major-version=1 --minor-version=0 @D:/C++_Project/Journal/cmake-build-release/imports/Components/qmltypes/Components_foreign_types.txt -o D:/C++_Project/Journal/cmake-build-release/imports/Components/components_qmltyperegistrations.cpp D:/C++_Project/Journal/cmake-build-release/imports/Components/meta_types/qt6components_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Components/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/C++_Project/Journal/cmake-build-release/imports/Components/.generated/Components.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\89232B80ED0EC2F10B0503B2709C2341\COMPONENTS_J_SIDEBAR_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Components/J_Sidebar.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Components/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmake_Components.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/Components_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache/Components_J_Sidebar_qml.cpp D:/C++_Project/Journal/imports/Components/J_Sidebar.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\CMAKE-BUILD-RELEASE\CMAKEFILES\89232B80ED0EC2F10B0503B2709C2341\COMPONENTS_J_TASKVIEW_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call ..\..\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.1/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /qt/qml/Components/J_Taskview.qml -I D:/C++_Project/Journal/cmake-build-release/imports/ -I C:/Qt/6.6.1/msvc2019_64/./qml -i D:/C++_Project/Journal/cmake-build-release/imports/Components/qmldir --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmake_Components.qrc --resource D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/Components_raw_qml_0.qrc -o D:/C++_Project/Journal/cmake-build-release/imports/Components/.rcc/qmlcache/Components_J_Taskview_qml.cpp D:/C++_Project/Journal/imports/Components/J_Taskview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\C++_PROJECT\JOURNAL\IMPORTS\COMPONENTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++_Project/Journal -BD:/C++_Project/Journal/cmake-build-release --check-stamp-file D:/C++_Project/Journal/cmake-build-release/imports/Components/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
