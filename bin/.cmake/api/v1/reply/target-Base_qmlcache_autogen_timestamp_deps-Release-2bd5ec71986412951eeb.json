@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"imports/Base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "Base_qmlcache_autogen_timestamp_deps::@99efa6c195e7b167795e",
+	"isGeneratorProvided" : true,
+	"name" : "Base_qmlcache_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "imports/Base",
+		"source" : "imports/Base"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "bin/imports/Base/CMakeFiles/Base_qmlcache_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "bin/imports/Base/CMakeFiles/Base_qmlcache_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "bin/imports/Base/.rcc/qmlcache/Base_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

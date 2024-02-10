@@ -1,1 +1,0 @@
-D:\C++_Project\Journal\cmake-build-release\Content\Journal_content_resources_1.dir\Release\Journal_content_resources_1.lib

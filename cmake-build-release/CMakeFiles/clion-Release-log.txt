@@ -1,7 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -S D:\C++_Project\Journal -B D:\C++_Project\Journal\cmake-build-release
--- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done
--- Generating done
--- Build files have been written to: D:/C++_Project/Journal/cmake-build-release

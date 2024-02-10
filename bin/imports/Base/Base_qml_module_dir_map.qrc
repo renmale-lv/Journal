@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/Base">D:/C++_Project/Journal/bin/imports/Base</file>
+
+  </qresource>
+</RCC>

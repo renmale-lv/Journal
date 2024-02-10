@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Content">
+    <file alias="qmldir">D:/C++_Project/Journal/bin/Content/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,8 +1,11 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="CssInvalidImport" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
     <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="OCUnusedIncludeDirective" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" editorAttributes="GENERIC_SERVER_ERROR_OR_WARNING" />
+    <inspection_tool class="PackageJsonMismatchedDependency" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
       <option name="processCode" value="true" />
       <option name="processLiterals" value="true" />

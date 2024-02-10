@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Components">
-    <file alias="qmldir">D:/C++_Project/Journal/cmake-build-release/imports/Components/qmldir</file>
-  </qresource>
-</RCC>
-

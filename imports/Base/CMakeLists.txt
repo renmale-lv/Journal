@@ -15,4 +15,5 @@ qt6_add_qml_module(Base
     RESOURCES
         Resource/Font/iconfont.ttf
         Resource/Image/Logo.png
+    RESOURCE_PREFIX "/"
 )

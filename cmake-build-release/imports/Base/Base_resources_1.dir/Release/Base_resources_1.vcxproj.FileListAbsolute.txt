@@ -1,1 +1,0 @@
-D:\C++_Project\Journal\cmake-build-release\imports\Base\Base_resources_1.dir\Release\Base_resources_1.lib

@@ -12,4 +12,5 @@ qt6_add_qml_module(Journal_content
     RESOURCES
         Resource/Image/avatar.png
         Resource/Image/background.jpg
+    RESOURCE_PREFIX "/"
 )

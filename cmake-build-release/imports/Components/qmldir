@@ -1,9 +1,0 @@
-module Components
-linktarget Componentsplugin
-optional plugin Componentsplugin
-classname ComponentsPlugin
-typeinfo Components.qmltypes
-prefer :/qt/qml/Components/
-J_Sidebar 1.0 J_Sidebar.qml
-J_Taskview 1.0 J_Taskview.qml
-

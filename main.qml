@@ -1,8 +1,8 @@
 import QtQuick.Window
 import QtQuick
-import Content
-import Base
-import Components
+import Content 1.0
+import Base 1.0
+import Components 1.0
 
 Window {
     id: window
@@ -41,7 +41,7 @@ Window {
                 id: sidebar_show_button
                 iconName: "\ueaf1"
                 onClicked: {
-                    if (sidebar.x == 0) {
+                    if (sidebar.x === 0) {
                         sidebar.x -= sidebar.width;
                     } else {
                         sidebar.x = 0;

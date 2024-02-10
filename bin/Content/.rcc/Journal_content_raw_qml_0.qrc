@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/Content/">
+    <file alias="Home_Smalltitle.qml">D:/C++_Project/Journal/Content/Home_Smalltitle.qml</file>
+    <file alias="Home_Subpage_1.qml">D:/C++_Project/Journal/Content/Home_Subpage_1.qml</file>
+    <file alias="Home_Subpage_2.qml">D:/C++_Project/Journal/Content/Home_Subpage_2.qml</file>
+    <file alias="Home_Subpage_3.qml">D:/C++_Project/Journal/Content/Home_Subpage_3.qml</file>
+    <file alias="Homepage.qml">D:/C++_Project/Journal/Content/Homepage.qml</file>
+    <file alias="Resource/Image/avatar.png">D:/C++_Project/Journal/Content/Resource/Image/avatar.png</file>
+    <file alias="Resource/Image/background.jpg">D:/C++_Project/Journal/Content/Resource/Image/background.jpg</file>
+  </qresource>
+</RCC>
+

@@ -6,4 +6,5 @@ qt6_add_qml_module(Components
     QML_FILES
         J_Sidebar.qml
         J_Taskview.qml
+    RESOURCE_PREFIX "/"
 )

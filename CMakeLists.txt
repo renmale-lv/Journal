@@ -1,21 +1,20 @@
 cmake_minimum_required(VERSION 3.21)
+project(Journal VERSION 1.0 LANGUAGES CXX)
 
-project(Journal LANGUAGES CXX)
-set(CMAKE_AUTOMOC ON)
-#set(CMAKE_AUTORCC ON)
-#set(CMAKE_INCLUDE_CURRENT_DIR ON)
-#set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-find_package(Qt6 6.6 COMPONENTS Core Gui Qml Quick QuickControls2 Widgets REQUIRED)
+find_package(Qt6 6.5 COMPONENTS Core Gui Qml Quick QuickControls2 REQUIRED)
 
-qt_standard_project_setup(REQUIRES 6.6.1)
-#qt_policy(SET CMP0127 NEW)
+qt_standard_project_setup(REQUIRES 6.5)
+
 qt_add_executable(Journal Src/main.cpp)
 
 qt_add_resources(Journal "configuration"
-        PREFIX "/"
-        FILES
-            Config/config.conf
+    PREFIX "/"
+    FILES
+        Config/config.conf
 )
 
 include(qmlmodules.cmake)
@@ -26,11 +25,4 @@ target_link_libraries(Journal PRIVATE
         Qt6::Quick
         Qt6::Qml
         Qt6::QuickControls2
-        Qt6::Widgets
-)
-
-install(TARGETS Journal
-        RUNTIME DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/${CMAKE_BUILD_TYPE}/bin"
-        BUNDLE DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}"
-        LIBRARY DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/${CMAKE_BUILD_TYPE}/lib"
 )

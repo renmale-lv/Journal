@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Components">D:/C++_Project/Journal/cmake-build-release/imports/Components</file>
-
-  </qresource>
-</RCC>

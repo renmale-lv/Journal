@@ -1,1 +1,0 @@
-D:\C++_Project\Journal\cmake-build-release\imports\Components\Components_resources_1.dir\Release\Components_resources_1.lib

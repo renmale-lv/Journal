@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/Content">D:/C++_Project/Journal/bin/Content</file>
+
+  </qresource>
+</RCC>
