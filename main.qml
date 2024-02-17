@@ -1,8 +1,8 @@
 import QtQuick.Window
 import QtQuick
-import Content 1.0
-import Base 1.0
-import Components 1.0
+import Content
+import Base
+import Components
 
 Window {
     id: window

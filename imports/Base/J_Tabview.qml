@@ -15,6 +15,7 @@ Item {
         propagateComposedEvents: true
         hoverEnabled: true
         anchors.fill: parent
+
         ListView {
             id: tab_nav
             orientation: ListView.Horizontal
@@ -86,21 +87,21 @@ Item {
             }
         }
         //嵌套再嵌套，人晕了
-        MouseArea{
-            anchors.fill: parent
+        // MouseArea{
+        //     anchors.fill: parent
+		// 	propagateComposedEvents: true
+		// 	hoverEnabled: true
             onEntered: {
                 right_row.opacity = 1
             }
             onExited: {
                 right_row.opacity = 0
             }
-            propagateComposedEvents: true
-            hoverEnabled: true
-            //press事件穿透
-            onPressed: mouse => {
-                mouse.accepted = false
-            }
-        }
+        //     //事件穿透
+        //     onPressed: mouse => {
+        //         mouse.accepted = false
+        //     }
+        // }
         Rectangle{
             anchors{
                 top: tab_nav.bottom
@@ -123,10 +124,28 @@ Item {
                 }
             }
         }
+		Item {
+			id: container
+			anchors {
+				top: slider.bottom
+				left: parent.left
+				right: parent.right
+				bottom: parent.bottom
+				topMargin: 5
+			}
+			Repeater {
+				model: tab_model
+				Loader {
+					anchors.fill: parent
+					sourceComponent: model.page
+					visible: tab_nav.currentIndex === index
+				}
+			}
+		}
     }
 
-    function appendTab(text){
-        tab_model.append({text: text})
+    function appendTab(text,page){
+        tab_model.append({text: text, page: page})
     }
     Component.onCompleted:{
         tab_nav.currentIndex = 0

@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/Components/">
-    <file alias="J_Sidebar.qml">D:/C++_Project/Journal/imports/Components/J_Sidebar.qml</file>
-    <file alias="J_Taskview.qml">D:/C++_Project/Journal/imports/Components/J_Taskview.qml</file>
-  </qresource>
-</RCC>
-

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="Config/config.conf">D:/C++_Project/Journal/Config/config.conf</file>
-  </qresource>
-</RCC>
-

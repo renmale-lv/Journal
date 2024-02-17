@@ -1,7 +1,9 @@
 import QtQuick
 import QtQuick.Controls
-import QtQuick.Layouts
+import QtQml.Models
+import Mysql
 import Base
+
 
 Item{
     height: 1000
@@ -10,7 +12,11 @@ Item{
         id: tab_view
     }
     Component.onCompleted: {
-        tab_view.appendTab("测试1")
-        tab_view.appendTab("测试测试测试测试")
+        tab_view.appendTab("测试1", com_page)
+        tab_view.appendTab("测试测试测试测试", com_page)
+    }
+    Component{
+        id: com_page
+        J_Tasklist{}
     }
 }

@@ -1,5 +1,5 @@
-import QtQuick
-import Components 1.0
+import QtQuick 2.0
+import Components
 
 Item{
     height: column.childrenRect.height

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/Main/">
-    <file alias="Main.qml">D:/C++_Project/Journal/Main.qml</file>
-  </qresource>
-</RCC>
-
