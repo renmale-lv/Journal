@@ -11,7 +11,7 @@ Item{
             width: parent.width
             text: "任务管理"
         }
-        J_Taskview{
+        J_TaskSView{
             width: parent.width
             id: taskview
         }

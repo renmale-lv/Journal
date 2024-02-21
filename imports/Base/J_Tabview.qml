@@ -5,8 +5,9 @@ import QtQuick.Controls
 //鼠标穿透真的恶心
 Item {
     id: root
-    implicitHeight: height
-    implicitWidth: width
+//    height: Math.max(childrenRect.height,tab_nav.height)
+    height: 1000
+    property int index: tab_nav.currentIndex
     ListModel {
         id: tab_model
     }
@@ -46,15 +47,15 @@ Item {
                 }
             }
         }
-        J_Iconbutton {
-            width: tab_nav.height
-            height: tab_nav.height
-            anchors {
-                top: parent.top
-                left: tab_nav.right
-            }
-            iconName: "\ueaf1"
-        }
+//        J_Iconbutton {
+//            width: tab_nav.height
+//            height: tab_nav.height
+//            anchors {
+//                top: parent.top
+//                left: tab_nav.right
+//            }
+//            iconName: "\ueaf1"
+//        }
         Row {
             id: right_row
             height: tab_nav.height
@@ -124,24 +125,28 @@ Item {
                 }
             }
         }
-		Item {
-			id: container
-			anchors {
-				top: slider.bottom
-				left: parent.left
-				right: parent.right
-				bottom: parent.bottom
-				topMargin: 5
-			}
-			Repeater {
-				model: tab_model
-				Loader {
-					anchors.fill: parent
-					sourceComponent: model.page
-					visible: tab_nav.currentIndex === index
-				}
-			}
-		}
+        Item {
+            id: container
+            anchors {
+                top: slider.bottom
+                left: parent.left
+                right: parent.right
+                bottom: parent.bottom
+                topMargin: 5
+            }
+            Repeater {
+                model: tab_model
+                Loader {
+                    anchors.fill: parent
+                    sourceComponent: model.page
+                    visible: tab_nav.currentIndex === index
+                }
+            }
+//            height: tab_model.get(tab_nav.currentIndex).page.height
+            Component.onDestruction: {
+                console.log(tab_model.get(tab_nav.currentIndex).page)
+            }
+        }
     }
 
     function appendTab(text,page){

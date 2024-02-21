@@ -6,17 +6,18 @@ import Base
 
 
 Item{
-    height: 1000
+    implicitHeight: tab_nav.height
     J_Tabview{
         anchors.fill: parent
-        id: tab_view
+        id: tab_nav
     }
     Component.onCompleted: {
-        tab_view.appendTab("测试1", com_page)
-        tab_view.appendTab("测试测试测试测试", com_page)
+        tab_nav.appendTab("测试1", com_page)
+//        tab_nav.appendTab("测试测试测试测试", com_page)
     }
     Component{
         id: com_page
-        J_Tasklist{}
+        J_TaskList{
+        }
     }
 }

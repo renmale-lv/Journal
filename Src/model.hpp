@@ -9,7 +9,7 @@
 #include <QString>
 #include <QtQml/qqml.h>
 
-class task : public QObject {
+class task : public QObject{
     Q_OBJECT
     Q_PROPERTY(QString name READ getName WRITE setName NOTIFY nameChanged)
     Q_PROPERTY(QString startTime READ getStartTime WRITE setStartTime NOTIFY startTimeChanged)
@@ -17,11 +17,13 @@ class task : public QObject {
     Q_PROPERTY(int status READ getStatus WRITE setStatus NOTIFY statusChanged)
 public:
     explicit task(int id, QString name, QString startTime, QString endTime, int status)
-            : _id(id), _status(status) {
+        : _id(id), _status(status),QObject(nullptr) {
         _name=std::move(name);
         _startTime=std::move(startTime);
         _endTime=std::move(endTime);
     }
+    task():_id(-1),QObject(nullptr){}
+    ~task(){}
 private:
     long int _id;
     QString _name;

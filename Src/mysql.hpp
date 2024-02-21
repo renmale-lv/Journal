@@ -30,11 +30,13 @@ public:
     }
 public:
     //将query的值转换为QVector
-    QVector<task*> getTask();
+    QList<task*> getTask();
     //获取今天的任务
-    Q_INVOKABLE QVector<task*> getTodayTask();
+    Q_INVOKABLE QList<task*> getTodayTask();
     //获取所谓未完成的任务
-    QVector<task*> getAllUndoneTask();
+    Q_INVOKABLE QList<task*> getAllUndoneTask();
+    //更新某一个任务
+    void updateTask(const task&);
 private:
     static mysql* instance;
 private:
