@@ -23,6 +23,10 @@ Item{
             width: parent.width
             text: "目标管理"
         }
+        J_TargetSView{
+            width: parent.width
+            id: targetview
+        }
         Home_Smalltitle{
             width: parent.width
             text: "书籍阅读"

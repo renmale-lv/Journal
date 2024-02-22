@@ -16,6 +16,8 @@ int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
     app.setWindowIcon(QIcon(":/Base/Resource/Image/Logo.png"));
     qmlRegisterType<task>("Task",1,0,"Task");
+    qmlRegisterType<target>("Target",1,0,"Target");
+    qmlRegisterType<goal>("Goal",1,0,"Goal");
     qmlRegisterSingletonInstance("Mysql",1,0,"Mysql",mysql::getinstance());
     QQmlApplicationEngine engine;
     engine.addImportPath("qrc:/");

@@ -4,8 +4,7 @@ import QtQuick.Controls
 import Mysql
 
 Item {
-    id: container
-    height: 1000
+    id: root
     property int tasknum: task_model.count
     ListModel {
         id: task_model

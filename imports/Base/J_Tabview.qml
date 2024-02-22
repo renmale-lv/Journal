@@ -6,7 +6,6 @@ import QtQuick.Controls
 Item {
     id: root
 //    height: Math.max(childrenRect.height,tab_nav.height)
-    height: 1000
     property int index: tab_nav.currentIndex
     ListModel {
         id: tab_model
@@ -132,7 +131,7 @@ Item {
                 left: parent.left
                 right: parent.right
                 bottom: parent.bottom
-                topMargin: 5
+                topMargin: 7
             }
             Repeater {
                 model: tab_model

@@ -42,6 +42,7 @@ Item{
                 rightMargin: 5
             }
             text: task.startTime
+            font.pixelSize: 12
         }
         Rectangle {
             id: task_complete
