@@ -56,7 +56,7 @@ Item{
             radius: height/2
             color: {
                 if (task.status===0){
-                    return "gray"
+                    return "#e3e2e0"
                 }else if(task.status===1){
                     return "green"
                 }else{

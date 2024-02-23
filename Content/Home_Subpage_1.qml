@@ -1,9 +1,12 @@
 import QtQuick
 
 Item{
-    height: 200
-    Rectangle{
-        anchors.fill: parent;
-        color: "gray"
+    height: width*2
+    Image {
+        id: backgroundimage
+        anchors.fill: parent
+        horizontalAlignment: Image.AlignHCenter
+        fillMode: Image.PreserveAspectCrop
+        source: "qrc:/Content/Resource/Image/image1.jpg"
     }
 }

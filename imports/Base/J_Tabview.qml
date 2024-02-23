@@ -5,8 +5,10 @@ import QtQuick.Controls
 //鼠标穿透真的恶心
 Item {
     id: root
-//    height: Math.max(childrenRect.height,tab_nav.height)
     property int index: tab_nav.currentIndex
+//    height: childrenRect.height
+
+
     ListModel {
         id: tab_model
     }
@@ -46,15 +48,6 @@ Item {
                 }
             }
         }
-//        J_Iconbutton {
-//            width: tab_nav.height
-//            height: tab_nav.height
-//            anchors {
-//                top: parent.top
-//                left: tab_nav.right
-//            }
-//            iconName: "\ueaf1"
-//        }
         Row {
             id: right_row
             height: tab_nav.height
@@ -124,8 +117,8 @@ Item {
                 }
             }
         }
+        //怎么根据显示地组件动态改变高度
         Item {
-            id: container
             anchors {
                 top: slider.bottom
                 left: parent.left
@@ -133,17 +126,16 @@ Item {
                 bottom: parent.bottom
                 topMargin: 7
             }
+            id: container
+//            height: container_repeater.itemAt(root.index).item.height
             Repeater {
+                id: container_repeater
                 model: tab_model
                 Loader {
                     anchors.fill: parent
                     sourceComponent: model.page
                     visible: tab_nav.currentIndex === index
                 }
-            }
-//            height: tab_model.get(tab_nav.currentIndex).page.height
-            Component.onDestruction: {
-                console.log(tab_model.get(tab_nav.currentIndex).page)
             }
         }
     }

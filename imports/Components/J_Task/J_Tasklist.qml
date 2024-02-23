@@ -14,15 +14,16 @@ Item {
         boundsBehavior: Flickable.StopAtBounds
         anchors.fill: parent
         model: task_model
+        spacing: 5
         delegate: J_TaskItem{
             width: task_view.width
             task: model.data
         }
     }
     Component.onCompleted: {
-        var data = Mysql.getTodayTask();
+        var data = Mysql.getTodayTask()
         for(var i=0;i<data.length;i++){
-            task_model.append({"data":data[i]});
+            task_model.append({"data":data[i]})
         }
         console.log(data)
     }

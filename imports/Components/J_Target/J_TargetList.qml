@@ -6,6 +6,9 @@ import QtQuick.Controls
 Item {
     id:root
     property int numeachcolumn: Math.floor(width/200)
+    property int columnnum: Math.ceil(target_model.count/numeachcolumn)
+
+
     ListModel{
         id: target_model
     }
@@ -13,6 +16,7 @@ Item {
         id: target_view
         anchors.fill: parent
         spacing: 10
+        height: childrenRect.height
         Repeater{
             model: target_model
             delegate: J_TargetItem{
@@ -20,11 +24,8 @@ Item {
                 target: model.data
             }
         }
-        Component.onCompleted:{
-            console.log(numeachcolumn)
-            console.log((width-(numeachcolumn-1)*target_view.spacing)/numeachcolumn)
-        }
     }
+
 
     Component.onCompleted: {
         var data = Mysql.getNotStartTarget();

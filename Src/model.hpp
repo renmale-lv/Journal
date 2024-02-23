@@ -17,11 +17,7 @@ class task : public QObject{
     Q_PROPERTY(int status READ getStatus WRITE setStatus NOTIFY statusChanged)
 public:
     explicit task(int id, QString name, QString startTime, QString endTime, int status)
-        : _id(id), _status(status),QObject(nullptr) {
-        _name=std::move(name);
-        _startTime=std::move(startTime);
-        _endTime=std::move(endTime);
-    }
+        : _id(id), _status(status),_name(std::move(name)),_startTime(std::move(startTime)),_endTime(std::move(endTime)),QObject(nullptr) {}
     task():_id(-1),QObject(nullptr){}
     ~task(){}
 private:
@@ -55,11 +51,7 @@ class target : public QObject{
     Q_PROPERTY(int status READ getStatus WRITE setStatus NOTIFY statusChanged)
 public:
     explicit target(int id, QString name, QString startTime, QString endTime, int status)
-        : _id(id), _status(status),QObject(nullptr) {
-        _name=std::move(name);
-        _startTime=std::move(startTime);
-        _endTime=std::move(endTime);
-    }
+        : _id(id), _status(status),_name(std::move(name)),_startTime(std::move(startTime)),_endTime(std::move(endTime)),QObject(nullptr) {}
     target():_id(-1),QObject(nullptr){}
 private:
     long int _id;
@@ -94,11 +86,7 @@ class goal : public QObject{
     Q_PROPERTY(int sumVal READ getSumVal WRITE setSumVal NOTIFY sumValChanged)
 public:
     explicit goal(int id, QString name, QString startTime, QString endTime, int status,int currentVal,int sumVal)
-        : _id(id), _status(status),_currentVal(currentVal),_sumVal(sumVal),QObject(nullptr) {
-        _name=std::move(name);
-        _startTime=std::move(startTime);
-        _endTime=std::move(endTime);
-    }
+        : _id(id), _status(status),_name(std::move(name)),_startTime(std::move(startTime)),_endTime(std::move(endTime)),_currentVal(currentVal),_sumVal(sumVal),QObject(nullptr) {}
     goal():_id(-1),QObject(nullptr){}
 private:
     long int _id;
