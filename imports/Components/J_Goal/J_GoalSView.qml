@@ -1,9 +1,7 @@
 import QtQuick
-import QtQuick.Controls
 import Base
 
-
-Item{
+Item {
     id:root
     height: tab_nav.height
     J_Tabview{
@@ -11,21 +9,19 @@ Item{
         id: tab_nav
     }
     Component.onCompleted: {
-        tab_nav.appendTab("今天任务", com_page)
+        tab_nav.appendTab("计划", com_page)
     }
     Component{
         id: com_page
-        J_TaskList{
+        J_GoalList{
             onVisibleChanged: {
                 if(visible===true){
-                    root.height=79+tasknum*35-5
-//                    console.log(root.height)
+                    root.height=44+columnnum*260-10
                 }
             }
-            onTasknumChanged: {
+            onColumnnumChanged: {
                 if(visible===true){
-                    root.height=79+tasknum*35-5
-//                    console.log(root.height)
+                    root.height=44+columnnum*260-10
                 }
             }
         }

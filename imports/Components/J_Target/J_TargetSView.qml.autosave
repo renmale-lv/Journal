@@ -35,17 +35,14 @@ Item {
         id: com_page_2
         J_TargetList{
             mode: 1
-            //希望找到更常规地方式来改变Tabview地大小
             onVisibleChanged: {
                 if(visible===true){
                     root.height=44+columnnum*260-10
-//                    console.log(root.height)
                 }
             }
             onColumnnumChanged: {
                 if(visible===true){
                     root.height=44+columnnum*260-10
-//                    console.log(root.height)
                 }
             }
         }

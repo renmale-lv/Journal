@@ -8,7 +8,6 @@ Item {
     height: 250
 
     MouseArea{
-        id: mouse
         anchors.fill: parent
         hoverEnabled: true
         Rectangle{
