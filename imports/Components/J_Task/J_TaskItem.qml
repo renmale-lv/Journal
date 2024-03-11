@@ -2,6 +2,7 @@ import QtQuick
 import Base
 import Task
 import QtQuick.Controls
+import GlobalSignals
 
 //不要使用data。。。。
 Item{
@@ -10,7 +11,6 @@ Item{
 
 
     height: 30;
-
 
     MouseArea {
         anchors.fill: parent
@@ -41,7 +41,7 @@ Item{
                 right: task_complete.left
                 rightMargin: 5
             }
-            text: task.startTime
+            text: task.Time
             font.pixelSize: 12
         }
         Rectangle {
@@ -83,6 +83,9 @@ Item{
         }
         onExited: {
             task_background.color = "#ffffff"
+        }
+        onClicked: {
+            GlobalSignals.editTask(task)
         }
     }
 }

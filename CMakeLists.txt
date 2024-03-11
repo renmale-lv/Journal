@@ -10,9 +10,12 @@ find_package(Qt6 6.5 COMPONENTS Core Gui Qml Quick QuickControls2 Sql REQUIRED)
 qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(Journal Src/main.cpp
-        Src/model.hpp
+        Src/model/task.hpp
+        Src/model/target.hpp
+        Src/model/goal.hpp
         Src/mysql.hpp
         Src/mysql.cpp
+        Src/GlobalSignals.hpp
     )
 
 qt_add_resources(Journal "configuration"

@@ -15,6 +15,5 @@ qt6_add_qml_module(Components
         J_Goal/J_GoalItem.qml
         J_Goal/J_GoalList.qml
         J_Goal/J_GoalSView.qml
-        GlobalSignal.qml
     RESOURCE_PREFIX "/"
 )

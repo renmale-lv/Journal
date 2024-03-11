@@ -10,25 +10,25 @@
 #include<QDateTime>
 #include<QDebug>
 
-#include "model.hpp"
+#include "model/task.hpp"
+#include "model/target.hpp"
+#include "model/goal.hpp"
 
-class mysql:public QObject{
+class mysql:public QObject {
     Q_OBJECT
-public:
-    static mysql* getinstance(){
-        return instance;
-    }
-    bool init(){
+  public:
+    static mysql& getInstance();
+    bool init() {
         bool ok =db.open();
-        if (!ok){
+        if (!ok) {
             qDebug()<<"error open database because "<<db.lastError().text();
         }
-        if(ok){
+        if(ok) {
             query=QSqlQuery(db);
         }
         return ok;
     }
-public:
+  public:
     //将query的值转换为QList
     QList<task*> getTask();
     QList<target*> getTarget();
@@ -47,16 +47,13 @@ public:
     Q_INVOKABLE QList<target*> getOnGoingTarget();
     //获取未开始的大目标
     Q_INVOKABLE QList<goal*> getNotStartGoal();
-private:
-    static mysql* instance;
-private:
+  private:
     int limit;
     QSqlDatabase db;
     QSqlQuery query;
     QString sql;
     mysql()
-        : limit(50)
-    {
+        : limit(50) {
         db=QSqlDatabase::addDatabase("QMYSQL");
         db.setHostName("127.0.0.1");
         db.setPort(3306);
@@ -64,6 +61,7 @@ private:
         db.setUserName("root");
         db.setPassword("123456");
     }
+    ~mysql()=default;
 };
 
 #endif

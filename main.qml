@@ -3,6 +3,7 @@ import QtQuick
 import Content
 import Base
 import Components
+import QtQuick.Controls
 
 Window {
     id: window
@@ -78,5 +79,9 @@ Window {
             right: parent.right
             top: menubar.bottom
         }
+    }
+    J_EditTask{
+        id: edit
+        anchors.centerIn: parent
     }
 }
