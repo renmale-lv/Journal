@@ -19,13 +19,11 @@ Item{
             onVisibleChanged: {
                 if(visible===true){
                     root.height=79+tasknum*35-5
-//                    console.log(root.height)
                 }
             }
             onTasknumChanged: {
                 if(visible===true){
                     root.height=79+tasknum*35-5
-//                    console.log(root.height)
                 }
             }
         }

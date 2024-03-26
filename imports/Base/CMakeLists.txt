@@ -13,8 +13,11 @@ qt6_add_qml_module(Base
         J_Shadow.qml
         J_Tabview.qml
         J_Text.qml
+        J_ComboBox.qml
+        J_Rectangle.qml
     RESOURCES
         Resource/Font/iconfont.ttf
         Resource/Image/Logo.png
+        Resource/Image/background_fangnai.png
     RESOURCE_PREFIX "/"
 )
