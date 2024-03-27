@@ -38,7 +38,7 @@
 - 初步实现目标管理展示界面
 - 通过信号实现Tabview页面大小变化
 
-![image-20240223172858641](https://gitee.com/renmale-sztu/image/raw/master/202402231729809.png)
+![image-20240327144152334](https://gitee.com/renmale-sztu/image/raw/master/202403271442540.png)
 
 ---
 
